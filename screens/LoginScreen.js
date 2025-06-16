@@ -1,14 +1,14 @@
-import { View, Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
 import React from 'react'
 import useAuth from '../hooks/useAuth'
 
 const LoginScreen = () => {
-  const { user } = useAuth(); // Able to access from useAuth hook (HOC - View App.js)
-  
-  console.log(user);
+  const { signInWithGoogle } = useAuth();
+
   return (
     <View>
       <Text>Login to the app</Text>
+      <Button title='login' onPress={signInWithGoogle} />
     </View>
   )
 }

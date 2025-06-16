@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "158317959872",
+    "project_id": "leap-bff2d",
+    "storage_bucket": "leap-bff2d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158317959872:android:952561810c76cca9f42b25",
+        "android_client_info": {
+          "package_name": "host.exp.exponent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2M8K5X2Q8dIUF5Bk1HQznj06TqXzDidA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158317959872-pj0hi7idmq0oahtd12vscrehjov6q45f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "host.exp.exponent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
