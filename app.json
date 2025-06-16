@@ -20,11 +20,18 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ethanmeli.LeapMobile"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "81985596-89b9-4099-99e9-c0aa6b684739"
+      },
+      "expoClientId": "158317959872-pj0hi7idmq0oahtd12vscrehjov6q45f.apps.googleusercontent.com"
     }
   }
 }
